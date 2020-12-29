@@ -13,15 +13,15 @@ import javax.swing.JOptionPane;
 public class DeleteData {
 	   
 	              public static String fileToString(String filepath) throws FileNotFoundException {
-		                                 String input=null;
-		                                 Scanner sc=new Scanner(new File(filepath));//reading the file data
-		                                 StringBuffer sb=new StringBuffer();
+		                  String input=null;
+		                  Scanner sc=new Scanner(new File(filepath));//reading the file data
+		                  StringBuffer sb=new StringBuffer();
 		                                 
-		                                 while(sc.hasNextLine()) {//iterating data in file
-			                                      input=sc.nextLine()+"\n";
-			                                      sb.append(input);
-		                                       }
-		                                 return sb.toString();
+		               while(sc.hasNextLine()) {//iterating data in file
+			          input=sc.nextLine()+"\n";
+			          sb.append(input);
+		               }
+		                  return sb.toString();
 	              }
 	              
                      void deleteData() {
