@@ -24,12 +24,12 @@ public class DeleteData {
 		                                 return sb.toString();
 	              }
 	              
-                  void deleteData() {
+                     void deleteData() {
                 	         String filepath="output.txt";
                 	         String result;
-					     try {
-						  result = fileToString(filepath);//store the data in result from the file
-						  System.out.println("Content of the file is  : "+result);//Printing the Original content of file
+		            try {
+				  result = fileToString(filepath);//store the data in result from the file
+		                  System.out.println("Content of the file is  : "+result);//Printing the Original content of file
 	                	  System.out.println("Enter Your Key want to delete from the file");//enter the value
 	                	  Scanner sc=new Scanner(System.in);
 	                	  String key=sc.next();//read the input
@@ -40,8 +40,8 @@ public class DeleteData {
 	                	  writer.flush();
 	                	  System.out.println("Contents of the file After perform deletion option");
 	                	  System.out.println(fileToString(filepath));//print the data after perform the deletion operation
-					    } catch (FileNotFoundException e) {//handling the exception
-						                e.printStackTrace();
-					      }
-               }
+			} catch (FileNotFoundException e) {//handling the exception
+			                e.printStackTrace();
+		           }
+           }
 }
