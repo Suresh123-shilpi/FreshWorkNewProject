@@ -41,7 +41,7 @@ public class DeleteData {
 	                	  System.out.println("Contents of the file After perform deletion option");
 	                	  System.out.println(fileToString(filepath));//print the data after perform the deletion operation
 			} catch (FileNotFoundException e) {//handling the exception
-			                e.printStackTrace();
+			              e.printStackTrace();
 		           }
            }
 }
