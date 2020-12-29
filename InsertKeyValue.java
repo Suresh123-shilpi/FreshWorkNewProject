@@ -9,7 +9,7 @@ import java.util.Properties;
 import java.util.Scanner;
 public class InsertKeyValue {
 	public static boolean KeyExitss(String key) {//check the dulpicates values here
-		String line;
+		      String line;
 		try {
 			//file path in our local Database System
 		      FileInputStream fin=new FileInputStream("C:\\Users\\Suresh Maurya\\eclipse-workspace\\FreshWork_Project\\output.txt");
