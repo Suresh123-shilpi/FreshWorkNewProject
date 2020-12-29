@@ -10,18 +10,18 @@ public class Main {
 		                 inst.ShowInstruction();// Show all instruction from this class
 		
 		     Scanner sc=new Scanner(System.in);
-		             System.out.println("Please Enter Your User Name :");
-		             String username="smmaurya@gmail.com";
+		     System.out.println("Please Enter Your User Name :");
+		     String username="smmaurya@gmail.com";
 		             
 		     if(username.equals("smmaurya@gmail.com")){//check your username
 		    	 System.out.println("Please Enter Your Password :");
-			     String password="@Suresh100";
+			 String password="@Suresh100";
 		        if(password.equals("@Suresh100")) {//check your password
 		        	
 			             int choice;// variable
 		                do {
 			                    System.out.println(" 1.)Create File\n 2.)Insert the Key-Value Pair\n 3.)Read the file\n 4.)Search Record\n 5.)Delete the Data\n 6.)Exit.");
-		                      	System.out.println("Please Enter Your Choice :");
+		                      	    System.out.println("Please Enter Your Choice :");
 			                    choice=sc.nextInt();//Your Choice 
 			                    //using the switch case selecting your choice
 			                    switch(choice){
@@ -62,6 +62,6 @@ public class Main {
 		
 		    long end=System.currentTimeMillis();// end point of execution program 
 		    double total=(double)(end-start)/100000;//Calculating the total execution time of the program
-	        System.out.println("Total execution time is = "+total+"sec"+"\nAfter it You can not perform any opeation in your Database:");// print the total execution time
+	            System.out.println("Total execution time is = "+total+"sec"+"\nAfter it You can not perform any opeation in your Database:");// print the total execution time
      }
 }
